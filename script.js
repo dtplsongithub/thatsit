@@ -50,12 +50,12 @@ function update(){
   writeint(wc+Math.sin(t/2+120)*30, hc-75, "Hi everyone!", "48px Consolas", 26, 12, 6, 7, 0.07, t, "h", [0, 50, 75], "#000");
   writeint(wc+Math.sin(t/3)*15, hc-25, "im dtpls. im also known as:","32px Consolas", 21, 6, 4, 7, 0.07, t, "s", [Math.sin(t*15)*15+240, 60, 0], null);
     writeint(wc+Math.sin(t)*25, hc+30, "d, dtplays or dateplays.","32px Consolas", 21, 6, 4, 7, 0.07, t, "h", [0, 60, 75], null);
-    writeint(wc+Math.sin(t/1.3+135)*25, hc+90, "Below this, there are informations about me :)","32px Consolas", 21, 6, 4, 7, 0.1, t, "s", [t*100%360, 60, 75], null);
+    writeint(wc+Math.sin(t/1.3+135)*25, hc+90, "Below, there are some stuff about me :)","32px Consolas", 21, 6, 4, 7, 0.1, t, "s", [t*100%360, 60, 75], null);
 }
 function textwsh(x, y, color, text, styler, shadowoffset) {
   ctx.font = styler;
   // shadow
-  ctx.fillStyle = "#555";
+  ctx.fillStyle = "#00000099";
   ctx.fillText(text, x + shadowoffset, y + shadowoffset);
   //actual text render
   ctx.fillStyle = color;
