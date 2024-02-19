@@ -46,11 +46,11 @@ function update(){
   gradient4.addColorStop(1, "#00000000");
   ctx.fillStyle = gradient4;
   ctx.fillRect(0, Math.sin(t*3)*70+hc-20, c.width, 40);
-   writeint(wc, 25, "about me", "32px Consolas", 21, 0, 2, 7, 0.07, t, "n", [20, 90, 100], "#000");
-  writeint(wc+Math.sin(t/2+120)*30, hc-75, "Hi everyone!", "48px Consolas", 26, 12, 6, 7, 0.07, t, "h", [0, 50, 75], "#000");
-  writeint(wc+Math.sin(t/3)*15, hc-25, "im dtpls. im also known as:","32px Consolas", 21, 6, 4, 7, 0.07, t, "s", [Math.sin(t*15)*15+240, 60, 0], null);
-    writeint(wc+Math.sin(t)*25, hc+30, "d, dtplays or dateplays.","32px Consolas", 21, 6, 4, 7, 0.07, t, "h", [0, 60, 75], null);
-    writeint(wc+Math.sin(t/1.3+135)*25, hc+90, "Below, there are some stuff about me :)","32px Consolas", 21, 6, 4, 7, 0.1, t, "s", [t*100%360, 60, 75], null);
+   writeint(wc, 25, "That's it.", "32px Consolas", 21, 0, 2, 7, 0.07, t, "n", [20, 90, 100], "#000");
+  writeint(wc+Math.sin(t/2+120)*30, hc-75, "Shoot the thing!", "48px Consolas", 26, 12, 6, 7, 0.07, t, "h", [0, 50, 75], "#000");
+  writeint(wc+Math.sin(t/3)*15, hc-25, "For example, D-T-Blue.","32px Consolas", 21, 6, 4, 7, 0.07, t, "s", [Math.sin(t*15)*15+240, 60, 0], null);
+    writeint(wc+Math.sin(t)*25, hc+30, "DT Bliss Obitaki.","32px Consolas", 21, 6, 4, 7, 0.07, t, "h", [0, 60, 75], null);
+    writeint(wc+Math.sin(t/1.3+135)*25, hc+90, "hello friend :)","32px Consolas", 21, 6, 4, 7, 0.1, t, "s", [t*100%360, 60, 75], null);
 }
 function textwsh(x, y, color, text, styler, shadowoffset) {
   ctx.font = styler;
